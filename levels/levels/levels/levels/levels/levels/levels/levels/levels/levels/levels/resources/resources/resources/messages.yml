@@ -1,0 +1,89 @@
+time:
+ zalush:
+  seconds:
+   0: "S"
+   1: "S"
+   2: "S"
+   3: "S"
+   4: "S"
+   5: "S"
+   6: "S"
+   7: "S"
+   8: "S"
+   9: "S"
+  minutes:
+   0: "M"
+   1: "M"
+   2: "M"
+   3: "M"
+   4: "M"
+   5: "M"
+   6: "M"
+   7: "M"
+   8: "M"
+   9: "M"
+  hours:
+   0: "H"
+   1: "H"
+   2: "H"
+   3: "H"
+   4: "H"
+   5: "H"
+   6: "H"
+   7: "H"
+   8: "H"
+   9: "H"
+bedwars:
+ lobby:
+  select_map: "Map %s"
+  select_map_author: "Map %s. Map author - %s"
+  start_at: "Game starts at %s"
+  for_play: "For playingyou must choose team. To choose, please, tap on villager"
+  for_start: "For playing now type in chat: /bwvote"
+  for_vote_map: "For choosing a map tap again on villager"
+  map_list: "Maps:"
+ start:
+  info: "Game started!"
+ stop:
+  loose: "You lost!"
+ team:
+  destroyed: "Bed of team %s destroyed!"
+  terminated: "Team %s destroyed!"
+  win: "Team %s won!"
+  joined: "%s joined your team"
+  quited: "%s leaved your team"
+  partners: "Players of your team: %s"
+ buy:
+  inv_full: "Your inventory is full!"
+  no_money: "You dont have money"
+  shop: "Villager"
+ spawner:
+  title:
+   b: "Bronze"
+   i: "Iron"
+   g: "Gold"
+ sayall:
+  prefix: "*"
+  tosay: "In game is team chat. If you want say public, type before message %s."
+bw:
+ usage: "/bw"
+ description: "Teleports you to lobby"
+ permission: "You dont have permission"
+ nouse: "You cant here!"
+bwvote:
+ usage: "/bwvote"
+ description: "Vote for force start"
+ permission: "You dont have permission"
+ used: "You already voted!"
+ nouse: "You cant here!"
+ notime: "Game already running!"
+bwstart:
+ usage: "/bwstart"
+ description: "Starts game now"
+ permission: "You cant non-op"
+ notime: "Already running!"
+bwstop:
+ usage: "/bwstop"
+ description: "Stop"
+ permission: "You cant non-op"
+ notime: "Game sucesfull stopped!"
